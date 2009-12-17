@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	background: url('imagesCarteVisite/body_background.jpg') repeat-y top center;
+	font-family: arial, sans;
+	color: #828282;
+	font-size: 12px;
+}
+
+img{
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearer{
+	clear: both;
+}
+
+	#centreur{
+		width: 1086px;
+		height: 1006px;
+		background: url('imagesCarteVisite/centreur_background.png') no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+		#logo{
+			width: 148px;
+			height: 206px;
+			background: url('imagesCarteVisite/logo.png');
+			float: left;
+			margin-top: 47px;
+			margin-left: 100px;
+		}
+		
+		#header{
+			width: 629px;
+			height: 186px;
+			background: url('imagesCarteVisite/header.png');
+			float: left;
+			margin-top: 17px;
+			margin-left: 23px;
+		}
+		
+		#leftMenu{
+			float: left;
+			width: 221px;
+			margin-top: 14px;
+			margin-left: 70px;
+		}
+		
+			.leftMenuTop{
+				background: url('imagesCarteVisite/leftMenuTop.png') no-repeat;
+				width: 221px;
+				height: 13px;
+			}
+			
+			.leftMenuMiddle{
+				background: url('imagesCarteVisite/leftMenuMiddle.png') repeat-y;
+				width: 221px;
+				padding: 1px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			
+				.leftMenuMiddle ul{
+					margin: 0px;
+					list-style: none;
+					margin-left: -48px;
+					width: 213px;
+				}
+				
+				.leftMenuMiddle li{
+					height: 32px;
+					font-size: 18px;
+					padding-left: 20px;
+					padding-top: 12px;
+					color: #BF066B;
+				}
+				
+				.leftMenuMiddle li a{
+					color: #BF066B;
+				}
+				
+				.leftMenuMiddle li:hover {
+					background: #BF066B;
+					color: white;
+				}
+				
+				.leftMenuMiddle li:hover a{
+					color: white;
+				}
+				
+				
+				
+			.leftMenuBottom{
+				background: url('imagesCarteVisite/leftMenuBottom.png') no-repeat;
+				width: 221px;
+				height: 20px;
+			}
+			
+		#corps{
+			float: left;
+			width: 652px;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		
+			.corpsTop{
+				background: url('imagesCarteVisite/corpsTop.png') no-repeat;
+				width: 652px;
+				height: 15px;
+			}
+			
+			.corpsMiddle{
+				background: url('imagesCarteVisite/corpsMiddle.png') repeat-y;
+				width: 652px;
+				padding: 1px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			
+				.titrePage{
+					background: url('imagesCarteVisite/mains.png') no-repeat top center;
+					text-align: center;
+					height: 44px;
+					padding-top: 50px;
+					margin: 0;
+					color: #CCCCCC;
+					font-weight: lighter;
+					margin-top: -40px;
+				}
+			
+			.corpsBottom{
+				background: url('imagesCarteVisite/corpsBottom.png') no-repeat;
+				width: 652px;
+				height: 20px;
+			}

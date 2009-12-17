@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	background: #53AB3F;
+	font-family: arial, sans;
+	color: black;
+	font-size: 12px;
+}
+
+img{
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearer{
+	clear: both;
+}
+
+	#centreur{
+		width: 1035px;
+		height: 1006px;
+		background: url('imagesBus/centreur_background.jpg') no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+		#logo{
+			float: left;
+		}
+		
+		#header{
+			width: 718px;
+			height: 285px;
+			background: url('imagesBus/header.png');
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#leftMenu{
+			float: left;
+			width: 822px;
+			margin-top: -17px;
+			margin-left: 100px;
+		}
+		
+			.leftMenuTop{
+				background: url('imagesBus/leftMenuTop.png') no-repeat;
+				width: 822px;
+				height: 10px;
+			}
+			
+			.leftMenuMiddle{
+				background: url('imagesBus/leftMenuMiddle.png') repeat-y;
+				width: 822px;
+				padding: 1px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			
+				.leftMenuMiddle ul{
+					margin: 0px;
+					list-style: none;
+					width: 805px;
+					padding: 0;
+				}
+				
+				.leftMenuMiddle li{
+					font-size: 18px;
+					color: white;
+					display: inline;
+					margin-right: 23px;
+				}
+				
+				.leftMenuMiddle li a{
+					color: white;
+				}
+				
+				.leftMenuMiddle li:hover {
+					background: white;
+					color: #BF066B;
+				}
+				
+				.leftMenuMiddle li:hover a{
+					color: #BF066B;
+				}
+				
+				
+				
+			.leftMenuBottom{
+				background: url('imagesBus/leftMenuBottom.png') no-repeat;
+				width: 822px;
+				height: 20px;
+			}
+			
+		#corps{
+			width: 999px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -85px;
+		}
+		
+			.corpsTop{
+				background: url('imagesBus/corpsTop.png') no-repeat;
+				width: 999px;
+				height: 250px;
+			}
+			
+			.corpsMiddle{
+				background: url('imagesBus/corpsMiddle.png') repeat-y;
+				width: 999px;
+				padding: 1px;
+			}
+			
+				.contenuCorps{
+					width: 800px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: -110px;
+				}
+			
+					.titrePage{
+						text-align: center;
+						margin: 0;
+						color: black;
+						font-weight: lighter;
+						font-size: 30px;
+					}
+			
+			.corpsBottom{
+				background: url('imagesBus/corpsBottom.png') no-repeat;
+				width: 999px;
+				height: 290px;
+			}
