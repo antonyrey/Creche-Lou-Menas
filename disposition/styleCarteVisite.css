@@ -122,16 +122,20 @@ a{
 				padding-right: 10px;
 			}
 			
-				.titrePage{
-					background: url('imagesCarteVisite/mains.png') no-repeat top center;
-					text-align: center;
-					height: 44px;
-					padding-top: 50px;
-					margin: 0;
-					color: #CCCCCC;
-					font-weight: lighter;
-					margin-top: -40px;
+				.contenuCorps{
+					padding-right: 25px;
 				}
+			
+					.titrePage{
+						background: url('imagesCarteVisite/mains.png') no-repeat top center;
+						text-align: center;
+						height: 44px;
+						padding-top: 50px;
+						margin: 0;
+						color: #CCCCCC;
+						font-weight: lighter;
+						margin-top: -40px;
+					}
 			
 			.corpsBottom{
 				background: url('imagesCarteVisite/corpsBottom.png') no-repeat;

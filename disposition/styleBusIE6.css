@@ -1,0 +1,35 @@
+#header{
+	background: url('imagesBusIE6/header.gif');
+}
+
+#leftMenu{
+	margin-left: 0;
+}
+
+	.leftMenuTop{
+		background: url('imagesBusIE6/leftMenuTop.gif') no-repeat;
+	}
+	
+	.leftMenuMiddle{
+		background: url('imagesBusIE6/leftMenuMiddle.gif') repeat-y;
+	}
+	
+	.leftMenuBottom{
+		background: url('imagesBusIE6/leftMenuBottom.gif') no-repeat;
+	}
+	
+#corps{
+
+}
+
+	.corpsTop{
+		background: url('imagesBusIE6/corpsTop.gif') no-repeat;
+	}
+	
+	.corpsMiddle{
+		background: url('imagesBusIE6/corpsMiddle.gif') repeat-y;
+	}
+	
+	.corpsBottom{
+		background: url('imagesBusIE6/corpsBottom.gif') no-repeat;
+	}

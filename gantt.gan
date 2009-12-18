@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Site internet Lou Menas" company="Crèche Lou Menas" webLink="" view-date="2009-12-14" view-index="0" gantt-divider-location="526" resource-divider-location="301" version="2.0">
+    <description><![CDATA[Création du site internet de la crèche Lou Menas]]></description>
+    <view zooming-state="default:2" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="55" order="0"/>
+        <field id="1" name="Rôle par défaut" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Rédaction du cahier des charges" color="#8cb6ce" meeting="false" start="2009-12-14" duration="2" complete="21" priority="1" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="Analyse de l'existant" color="#8cb6ce" meeting="false" start="2009-12-14" duration="1" complete="100" priority="1" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Analyse du système futur" color="#8cb6ce" meeting="false" start="2009-12-15" duration="1" complete="0" priority="1" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Dictionnaire des données" color="#8cb6ce" meeting="false" start="2009-12-16" duration="5" complete="0" priority="1" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Maquettage de l'application" color="#8cb6ce" meeting="false" start="2009-12-16" duration="3" complete="0" priority="1" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Réalisation du projet" color="#8cb6ce" meeting="false" start="2009-12-23" duration="1" complete="0" priority="1" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="346"/>
+        <displaycolumn property-id="tpd4" order="1" width="41"/>
+        <displaycolumn property-id="tpd5" order="2" width="29"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

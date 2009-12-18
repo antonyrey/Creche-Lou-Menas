@@ -1,0 +1,17 @@
+/***************************************************************************/
+/********** Création de la base de données Lou Menas ************/
+/*************************************************************************/
+
+/************ Vue actualité *********************/
+
+DROP VIEW IF EXISTS V_ACTUALITE;
+
+CREATE VIEW V_ACTUALITE (
+
+	numActualite integer not null,
+	urlImgActualite varchar(255)
+
+);
+
+ALTER TABLE ACTUALITE ADD PRIMARY KEY (numActualite);
+ALTER TABLE ACTUALITE ADD FOREIGN KEY (numActualite) REFERENCES DOCUMENT(numDoc);

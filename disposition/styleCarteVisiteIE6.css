@@ -1,0 +1,60 @@
+#centreur{
+	background: url('imagesCarteVisiteIE6/centreur_background.gif') no-repeat;
+}
+
+		#logo{
+			background: url('imagesCarteVisiteIE6/logo.gif');
+			margin-left: 50px;
+		}
+		
+		#header{
+			background: url('imagesCarteVisiteIE6/header.gif');
+		}
+		
+		#leftMenu{
+			margin-left: 35px;
+		}
+		
+			.leftMenuTop{
+				background: url('imagesCarteVisiteIE6/leftMenuTop.gif') no-repeat;
+			}
+			
+			.leftMenuMiddle{
+				background: url('imagesCarteVisiteIE6/leftMenuMiddle.gif') repeat-y;
+			}
+			
+				.leftMenuMiddle ul{
+					margin-left: -7px;
+				}
+			
+			.leftMenuBottom{
+				background: url('imagesCarteVisiteIE6/leftMenuBottom.gif') no-repeat;
+			}
+			
+		#corps{
+			margin-top: -30px;
+			margin-left: 35px;
+		}
+		
+			.corpsTop{
+				background: url('imagesCarteVisiteIE6/corpsTop.gif') no-repeat;
+			}
+			
+			.corpsMiddle{
+				background: url('imagesCarteVisiteIE6/corpsMiddle.gif') repeat-y;
+			}
+			
+				.titrePage{
+						background: url('imagesCarteVisiteIE6/mains.gif') no-repeat top center;
+						text-align: center;
+						height: 44px;
+						padding-top: 50px;
+						margin: 0;
+						color: #CCCCCC;
+						font-weight: lighter;
+						margin-top: 0px;
+					}
+			
+			.corpsBottom{
+				background: url('imagesCarteVisiteIE6/corpsBottom.gif') no-repeat;
+			}
